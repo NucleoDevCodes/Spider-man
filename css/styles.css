@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #2E335A 0%, #1C1833 100%) no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 53px auto;
+    padding: 0 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center; 
+}
+
+.menu a {
+    font-family: "Outfit", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
