@@ -42,7 +42,7 @@ Bash
 ```
 cd spider-man-landing-page
 ```
-Abra o arquivo index.html no seu navegador de preferência , usand oaestensão ***live server***.
+Abra o arquivo index.html no seu navegador de preferência , usando a extensão ***live server***.
 
 Você pode fazer isso clicando duas vezes no arquivo ou, no terminal/explorador de arquivos, usando o comando:
 
