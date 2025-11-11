@@ -7,7 +7,7 @@ O objetivo foi replicar o design proposto no Figma, focando na fidelidade visual
 
 A página apresenta informações introdutórias sobre o personagem, utilizando elementos visuais icônicos e um layout focado no branding da Marvel/Spider-Man.
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 A landing page foi desenvolvida utilizando as seguintes tecnologias e bibliotecas:
 
 HTML5: Estrutura semântica do conteúdo da página.
