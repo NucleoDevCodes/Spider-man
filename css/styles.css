@@ -1,23 +1,83 @@
+:root {
+    --accent-color: #E90909; 
+    --text-color: #ffffff; 
+    --light-gray: #cccccc; 
+    --button-bg: #e50914; 
+    --button-hover-bg: #ff0000;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    overflow-x: hidden; /* <--- Adicione esta linha */
+    scroll-behavior: smooth; /* Se você quiser rolagem suave */
+}
 
 body {
+    font-family: 'Outfit', sans-serif;
     background: linear-gradient(180deg, #2E335A 0%, #1C1833 100%) no-repeat;
-    background-attachment: fixed;
-    
+    color: var(--text-color);
+    line-height: 1.6;
+    overflow-x: hidden; /* Evita rolagem horizontal indesejada */
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 1720px;
-    margin: 53px 116px;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 15px 0;
+    
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: auto; 
+}
+
+.navbar .menu ul  {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .menu a {
+    font-weight: 700;
+    font-size: 0.95em;
+    padding-bottom: 5px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar .menu a.active {
+    color: var(--accent-color);
 }
 
 .menu {
@@ -43,7 +103,7 @@ body {
 
 .spiderman-section {
     display: flex;
-    margin: 104px;
+    margin-left: 115px;
 }
 
 .studio-logo {
@@ -56,8 +116,9 @@ body {
 }
 
 .text-box  {
-   margin-top: 114px;
+   margin-top: 116px;
    max-width: 885px;
+   
 }
 
 .text-box h1 {
@@ -80,7 +141,7 @@ body {
     color: #000000;
     -webkit-text-stroke: 2px #F2F2F2;
     margin-top: 10px;
-    margin-bottom: 24px;
+    margin-bottom: 40px;
 }
 
 .text-box  p {
@@ -88,9 +149,9 @@ body {
     font-weight: 400;
     font-size: 35px;
     color: #FFFFFF;
-    margin-top: 15px;
-    margin-bottom: 33px;
-}
+    margin-top: 20px;
+    margin-bottom: 30px;
+} 
 
 
 .buttons {
@@ -98,6 +159,7 @@ body {
     align-items: center;
     text-decoration: none;
     gap: 38px;
+    margin-bottom: 166px;
 }
 
 .btn.watch {
@@ -123,7 +185,7 @@ body {
 
 
 .img-spider-man {
-    max-width: 1049px; 
+    max-width: 920px; 
     height: auto;
 }
 
